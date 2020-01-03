@@ -10,7 +10,7 @@ To set up this project, I ran the following commands:
 
 `yarn develop`
 
-At this stage Gridsome is work as expected, but then I want to add Storybook:
+At this stage Gridsome is working as expected, but then I want to add Storybook:
 
 `npx -p @storybook/cli sb init --type vue`
 
@@ -64,3 +64,5 @@ npm ERR! Could not install from "core-js\modules\es6.array.filter" as it does no
 npm ERR! A complete log of this run can be found in:
 npm ERR!     C:\Users\Denno\AppData\Roaming\npm-cache\_logs\2020-01-03T01_29_05_890Z-debug.log
 ```
+
+I have posted a question on Stack Overflow, which will hopefully shed some light on what is going on here (https://stackoverflow.com/questions/59572184/i-installed-storybook-into-a-gridsome-project-and-it-has-now-broken-the-gridsom)
